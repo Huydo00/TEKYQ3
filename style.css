@@ -1,0 +1,169 @@
+body{
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: rgb(0, 0, 0);
+    font-family: Roboto, sans-serif;
+}
+
+nav{
+    background-color: dodgerblue;
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    
+}
+nav .time{
+    color: white;
+    font-size: 32px;
+    padding: 15px 0px 0px 15px;
+}
+nav .logo{
+    width: 100%;
+    background-size: cover;
+}
+nav .logo .image-logo{
+    width: 80%;
+    padding: 15px 10% 15px 10%;
+
+}
+nav .nav-menu{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+nav .nav-menu .home{
+    padding: 15px;
+}
+nav .nav-menu .char{
+    padding: 15px;
+}
+nav .nav-menu .setting{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 20px;
+}
+
+section{
+    background-color: white;
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    right: 0;
+    top: 0;
+}
+section .header{
+    height: 130px;
+}
+section .header .title{
+    font-size: 28px;
+    color: dodgerblue;
+    text-decoration: double;
+    padding: 35px 35px 25px 50px;
+    font-weight: 700;
+    letter-spacing: 7px;
+}
+section .content{
+    margin: 20px;
+}
+section .content .bt{
+    width: 100px;
+    height: 120px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    display: inline-table;
+}
+section .content .ic-bt{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+section .content .text-bt{
+    font-size: 14px;
+}
+.toggle{
+    width: 80px;
+    height: 35px;
+    background-color: rgba(red, green, blue, alpha);
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.toggle .value{
+    width: 100%;
+    height: 15px;
+    line-height: 15px;
+}
+section .value .slider{
+    -webkit-appearance: none;
+    width: 90%;
+    height: 100%;
+    outline: none;
+    border-radius: 10px;
+    background-color: powderblue;
+    margin-top: 4px;
+}
+section .value .slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 10px powderblue, 0 0 10px powderblue, 0 0 10px powderblue, 0 0 10px powderblue;
+    cursor: pointer;
+}
+
+.toggle-on{
+    display: inline-block;
+    width: 45px;
+    height: 25px;
+    background-color: gainsboro;
+    border-radius: 10px;
+    font-size: 10px;
+    line-height: 25px;
+}
+.toggle-on:hover{
+    cursor: pointer;
+    border: 2px solid dodgerblue;
+}
+.toggle-on.on1{
+    background-color: dodgerblue;
+}
+.toggle-on.on2{
+    background-color: dodgerblue;
+}
+.toggle-on.on3{
+    background-color: dodgerblue;
+}
+
+.toggle-off{
+    display: inline-block;
+    width: 45px;
+    height: 25px;
+    background-color: gainsboro;
+    border-radius: 10px;
+    font-size: 10px;
+    line-height: 25px;
+}
+.toggle-off:hover{
+    cursor: pointer;
+    border: 2px solid grey;
+}
+.toggle-off.off1{
+    background-color: gainsboro;
+}
+.toggle-off.off2{
+    background-color: gainsboro;
+}
+.toggle-off.off3{
+    background-color: gainsboro;
+}
