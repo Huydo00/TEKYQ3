@@ -24,13 +24,15 @@ var database = firebase.database();
 // });
 
 // Y1 - DOOR
-// Y2 - LED 0
+// Y2 - LED 1
 
 // Y3 - FAN 1
-// Y4 - LED 1
+// Y4 - LED 2
 
 // Y5 - FAN 2
-// Y6 - LED 2
+// Y6 - LED 3
+
+// Y7 - LED 4
 
 // X1 - DHT11 T
 // X2 - DHT11 H
@@ -42,18 +44,18 @@ var database = firebase.database();
 var Y1 = 1;
 var onbt1 = document.getElementById("act"+ Y1);
 onbt1.onclick = function(){
-    database.ref("/TEKYQ3/smh/I").update({
+    database.ref("/TEKYQ3/smh/O").update({
         Y1 : 1
     });
 }
 var offbt1 = document.getElementById("unact"+ Y1);
 offbt1.onclick = function(){
-    database.ref("/TEKYQ3/smh/I").update({
+    database.ref("/TEKYQ3/smh/O").update({
         Y1 : 0
     });
 }
 
-database.ref("/TEKYQ3/smh/I/Y1").on("value", function(snapshot){
+database.ref("/TEKYQ3/smh/O/Y1").on("value", function(snapshot){
     var ssled = snapshot.val();
     if(ssled==1){
         document.getElementById("unact" + Y1).style.display = "block";
@@ -73,18 +75,18 @@ database.ref("/TEKYQ3/smh/I/Y1").on("value", function(snapshot){
 var Y2 = 2;
 var onbt1 = document.getElementById("act"+ Y2);
 onbt1.onclick = function(){
-    database.ref("/TEKYQ3/smh/I").update({
+    database.ref("/TEKYQ3/smh/O").update({
         Y2 : 1
     });
 }
 var offbt1 = document.getElementById("unact"+ Y2);
 offbt1.onclick = function(){
-    database.ref("/TEKYQ3/smh/I").update({
+    database.ref("/TEKYQ3/smh/O").update({
         Y2 : 0
     });
 }
 
-database.ref("/TEKYQ3/smh/I/Y2").on("value", function(snapshot){
+database.ref("/TEKYQ3/smh/O/Y2").on("value", function(snapshot){
     var ssled = snapshot.val();
     if(ssled==1){
         document.getElementById("unact" + Y2).style.display = "block";
@@ -104,18 +106,18 @@ database.ref("/TEKYQ3/smh/I/Y2").on("value", function(snapshot){
 var Y3 = 3;
 var onbt1 = document.getElementById("act"+ Y3);
 onbt1.onclick = function(){
-    database.ref("/TEKYQ3/smh/I").update({
+    database.ref("/TEKYQ3/smh/O").update({
         Y3 : 1
     });
 }
 var offbt1 = document.getElementById("unact"+ Y3);
 offbt1.onclick = function(){
-    database.ref("/TEKYQ3/smh/I").update({
+    database.ref("/TEKYQ3/smh/O").update({
         Y3 : 0
     });
 }
 
-database.ref("/TEKYQ3/smh/I/Y3").on("value", function(snapshot){
+database.ref("/TEKYQ3/smh/O/Y3").on("value", function(snapshot){
     var ssled = snapshot.val();
     if(ssled==1){
         document.getElementById("unact" + Y3).style.display = "block";
@@ -135,18 +137,18 @@ database.ref("/TEKYQ3/smh/I/Y3").on("value", function(snapshot){
 var Y4 = 4;
 var onbt1 = document.getElementById("act"+ Y4);
 onbt1.onclick = function(){
-    database.ref("/TEKYQ3/smh/I").update({
+    database.ref("/TEKYQ3/smh/O").update({
         Y4 : 1
     });
 }
 var offbt1 = document.getElementById("unact"+ Y4);
 offbt1.onclick = function(){
-    database.ref("/TEKYQ3/smh/I").update({
+    database.ref("/TEKYQ3/smh/O").update({
         Y4 : 0
     });
 }
 
-database.ref("/TEKYQ3/smh/I/Y4").on("value", function(snapshot){
+database.ref("/TEKYQ3/smh/O/Y4").on("value", function(snapshot){
     var ssled = snapshot.val();
     if(ssled==1){
         document.getElementById("unact" + Y4).style.display = "block";
@@ -166,18 +168,18 @@ database.ref("/TEKYQ3/smh/I/Y4").on("value", function(snapshot){
 var Y5 = 5;
 var onbt1 = document.getElementById("act"+ Y5);
 onbt1.onclick = function(){
-    database.ref("/TEKYQ3/smh/I").update({
+    database.ref("/TEKYQ3/smh/O").update({
         Y5 : 1
     });
 }
 var offbt1 = document.getElementById("unact"+ Y5);
 offbt1.onclick = function(){
-    database.ref("/TEKYQ3/smh/I").update({
+    database.ref("/TEKYQ3/smh/O").update({
         Y5 : 0
     });
 }
 
-database.ref("/TEKYQ3/smh/I/Y5").on("value", function(snapshot){
+database.ref("/TEKYQ3/smh/O/Y5").on("value", function(snapshot){
     var ssled = snapshot.val();
     if(ssled==1){
         document.getElementById("unact" + Y5).style.display = "block";
@@ -198,18 +200,18 @@ database.ref("/TEKYQ3/smh/I/Y5").on("value", function(snapshot){
 var Y6 = 6;
 var onbt1 = document.getElementById("act"+ Y6);
 onbt1.onclick = function(){
-    database.ref("/TEKYQ3/smh/I").update({
+    database.ref("/TEKYQ3/smh/O").update({
         Y6 : 1
     });
 }
 var offbt1 = document.getElementById("unact"+ Y6);
 offbt1.onclick = function(){
-    database.ref("/TEKYQ3/smh/I").update({
+    database.ref("/TEKYQ3/smh/O").update({
         Y6 : 0
     });
 }
 
-database.ref("/TEKYQ3/smh/I/Y6").on("value", function(snapshot){
+database.ref("/TEKYQ3/smh/O/Y6").on("value", function(snapshot){
     var ssled = snapshot.val();
     if(ssled==1){
         document.getElementById("unact" + Y6).style.display = "block";
@@ -226,28 +228,28 @@ database.ref("/TEKYQ3/smh/I/Y6").on("value", function(snapshot){
 })
 
 
-
-
-
-
-
-
-
-
-
-
-
-//Web Reiceive DHT11 fire
-database.ref("/IOT/humd").on("value", function(snapshot){
-    var humd = snapshot.val();
-    document.getElementById("humd").innerHTML = humd;
+//X1
+database.ref("/TEKYQ3/smh/I/X1").on("value", function(snapshot){
+    var X1 = snapshot.val();
+    document.getElementById("humd").innerHTML = X1;
 })
-database.ref("/IOT/temp").on("value", function(snapshot){
-    var temp = snapshot.val();
-    document.getElementById("temp").innerHTML = temp;
+
+//X2
+database.ref("/TEKYQ3/smh/I/X2").on("value", function(snapshot){
+    var X2 = snapshot.val();
+    document.getElementById("temp").innerHTML = X2;
 })
-//Web Reiceive RAIN SENSOR fire
-database.ref("/IOT/rainfall").on("value", function(snapshot){
-    var rain = snapshot.val();
-    document.getElementById("rain").innerHTML = rain;
+
+//X3
+database.ref("/TEKYQ3/smh/I/X3").on("value", function(snapshot){
+    var X3 = snapshot.val();
+    X3 = X3*100/1024;
+    X3 = X3.toFixed(2);
+    document.getElementById("gas").innerHTML = X3;
+})
+
+//X4
+database.ref("/TEKYQ3/smh/I/X4").on("value", function(snapshot){
+    var X4 = snapshot.val();
+    document.getElementById("").innerHTML = X4;
 })

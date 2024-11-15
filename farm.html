@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html data-wf-domain="smh-650bf9.webflow.io" data-wf-page="672f6133d6a57ed106a6bbca" data-wf-site="672f6132d6a57ed106a6bb6b" data-wf-status="1">
+<html >
     <head>
         <meta charset="utf-8"/>
         <title>SMH</title>
         <meta content="width=device-width, initial-scale=1" name="viewport"/>
         <meta content="Webflow" name="generator"/>
         <link href="https://cdn.prod.website-files.com/672f6132d6a57ed106a6bb6b/css/smh-650bf9.webflow.21d75f0c0.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="/assets/fontawesome-free/css/all.css">
         <style>
             @media (max-width: 991px) and (min-width:768px) {
                 html.w-mod-js:not(.w-mod-ix) [data-w-id="5f94d1a5-4e16-f3c5-9c1f-d96674f37282"] {
@@ -185,13 +187,12 @@
                                 </div>
                                 <p>Home</p>
                             </a>
-                            <a href="./farm.html" aria-current="page" class="nav-link w-inline-block w--current">
+                            <a href="#" aria-current="page" class="nav-link w-inline-block w--current">
                                 <div class="nav-icon">
                                     <img src="./assets/image/4.png" loading="lazy" alt="" class="icon-img"/>
                                 </div>
                                 <p>Farm</p>
                             </a>
-                            
                         </div>
                     </div>
                     <div class="nav-bot pt-20">
@@ -201,11 +202,11 @@
                             </div>
                             <p>Settings</p>
                         </a>
-                        <a href="#" class="nav-link last w-inline-block">
+                        <a href="./about.html" class="nav-link last w-inline-block">
                             <div class="nav-icon">
                                 <img src="https://cdn.prod.website-files.com/672f6132d6a57ed106a6bb6b/672f6133d6a57ed106a6bc06_help.svg" loading="lazy" alt="" class="icon-img"/>
                             </div>
-                            <p>Help</p>
+                            <p>About</p>
                         </a>
                     </div>
                 </div>
@@ -238,8 +239,8 @@
                         <div class="content-profiles">
                             <div class="content-label">
                                 <div class="label-left">
-                                    <h1 class="mb-15">SMART HOME</h1>
-                                    <p class="normal-p"></p>
+                                    <h1 class="mb-15">Hello!</h1>
+                                    <p class="normal-p">Xin chào bạn đã trở lại với nông trại của bạn. Chúc bạn có một ngày tuyệt vời!</p>
                                 </div>
                                 <div class="label-right">
                                     <div class="time-wrap">
@@ -257,47 +258,159 @@
                         </div>
                     </div>
                 </div>
-                <div class="content-bot">
-                    <h2 style="color: white; text-align: center;">Giới Thiệu</h2><br>
-                    <p style="text-align: justify; line-height: 1.8; color: white;">Ngôi nhà thông minh (smart home) là một hệ thống được trang bị các thiết bị có khả năng kết nối internet và tự động điều khiển, giúp tăng cường sự tiện nghi, tiết kiệm năng lượng và an ninh cho ngôi nhà. Một ngôi nhà thông minh có thể điều khiển các thiết bị trong nhà như đèn, máy lạnh, quạt, hệ thống an ninh và nhiều thiết bị khác thông qua các ứng dụng trên điện thoại hoặc các trợ lý ảo như Google Assistant, Amazon Alexa.</p>
+                    <div class="content-bot">
+                        <h3>CONTROL</h3>
+                        <div class="content-cards">
+                            <div class="card">
+                                <div class="card-top">
+                                    <div class="card-icon small">
+                                        <img src="https://cdn.prod.website-files.com/672f6132d6a57ed106a6bb6b/672f6133d6a57ed106a6bc00_heart.svg" loading="lazy" alt="" class="icon-img"/>
+                                    </div>
+                                </div>
+                                <div class="card-bot">
+                                    <div class="timer-wrap">
+                                        <img src="https://cdn.prod.website-files.com/672f6132d6a57ed106a6bb6b/672f6133d6a57ed106a6bbff_speed.svg" loading="lazy" alt="" class="icon-wrap"/>
+                                        <p class="p-12 white">Speed WIFI</p>
+                                    </div>
+                                    <p class="purple">
+                                        <span class="p-35">210</span>
+                                        mb/sec
+                                    </p>
+                                    <p class="grey">Good</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-top">
+                                    <div class="card-icon">
+                                        <img src="https://cdn.prod.website-files.com/672f6132d6a57ed106a6bb6b/672f6133d6a57ed106a6bbf4_monitor.svg" loading="lazy" alt="" class="icon-img"/>
+                                    </div>
+                                    <a id="unact1" style="cursor: pointer; background-color: green;" class="border-icon w-inline-block">
+                                        <img style="padding: 8px;" src="https://cdn.prod.website-files.com/672f6132d6a57ed106a6bb6b/672f6133d6a57ed106a6bbf5_off.svg" loading="lazy" alt="" class="icon-img"/>
+                                    </a>
+                                    <a id="act1" style="cursor: pointer;" class="border-icon w-inline-block">
+                                        <img style="padding: 8px;" src="https://cdn.prod.website-files.com/672f6132d6a57ed106a6bb6b/672f6133d6a57ed106a6bbf5_off.svg" loading="lazy" alt="" class="icon-img"/>
+                                    </a>
+                                </div>
+                                <div class="card-bot">
+                                    <div class="timer-wrap">
+                                        <img src="https://cdn.prod.website-files.com/672f6132d6a57ed106a6bb6b/672f6133d6a57ed106a6bbf6_clock.svg" loading="lazy" alt="" class="icon-wrap"/>
+                                        <p class="p-12 white">Farm</p>
+                                    </div>
+                                    <p class="green">
+                                        <span class="p-35">PUMP</span>
+                                        <span class="p-35"></span>
+                                    </p>
+                                    <p id="ast1"     style="color: gray;">OFF</p>
+                                    <p id="unst1" style="color: green;">ON</p>
+                                </div>
+                            </div>
 
-                    <p style="text-align: justify; line-height: 1.8; color: white;">Một trong những tính năng phổ biến của ngôi nhà thông minh là khả năng giám sát và điều khiển nhiệt độ trong nhà thông qua cảm biến nhiệt độ và các thiết bị điều hòa nhiệt độ (như máy điều hòa không khí hoặc máy sưởi). Các thiết bị này có thể được điều khiển từ xa thông qua kết nối WiFi.</p>
-
-                    <br><h2 style="color: white; text-align: center;">Tính Năng Của Ngôi Nhà Thông Minh</h2><br>
-
-                    <div style="background-color: #444; border: 1px solid #ddd; padding: 15px; margin-bottom: 20px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
-                        <h3 style="margin-top: 0; color: white; text-align: center;">1. Điều Khiển Từ Xa Qua WiFi</h3>
-                        <p style="text-align: justify; line-height: 1.8; color: white;">Bạn có thể sử dụng smartphone, máy tính bảng hoặc các thiết bị có kết nối internet để điều khiển các thiết bị trong nhà từ bất kỳ đâu, miễn là có kết nối WiFi. Ví dụ, bạn có thể điều chỉnh ánh sáng, nhiệt độ, hoặc bật/tắt các thiết bị điện mà không cần phải có mặt tại nhà.</p>
+                            <div class="card">
+                                <div class="card-top">
+                                    <div class="card-icon">
+                                        <img src="https://cdn.prod.website-files.com/672f6132d6a57ed106a6bb6b/672f6133d6a57ed106a6bbf4_monitor.svg" loading="lazy" alt="" class="icon-img"/>
+                                    </div>
+                                    <a id="unact2" style="cursor: pointer; background-color: green;" class="border-icon w-inline-block">
+                                        <img style="padding: 8px;" src="https://cdn.prod.website-files.com/672f6132d6a57ed106a6bb6b/672f6133d6a57ed106a6bbf5_off.svg" loading="lazy" alt="" class="icon-img"/>
+                                    </a>
+                                    <a id="act2" style="cursor: pointer;" class="border-icon w-inline-block">
+                                        <img style="padding: 8px;" src="https://cdn.prod.website-files.com/672f6132d6a57ed106a6bb6b/672f6133d6a57ed106a6bbf5_off.svg" loading="lazy" alt="" class="icon-img"/>
+                                    </a>
+                                </div>
+                                <div class="card-bot">
+                                    <div class="timer-wrap">
+                                        <img src="https://cdn.prod.website-files.com/672f6132d6a57ed106a6bb6b/672f6133d6a57ed106a6bbf6_clock.svg" loading="lazy" alt="" class="icon-wrap"/>
+                                        <p class="p-12 white">Farm</p>
+                                    </div>
+                                    <p class="green">
+                                        <span class="p-35">LIGHT</span>
+                                        <span class="p-35"></span>
+                                        
+                                    </p>
+                                    <p id="ast2" style="color: gray;">OFF</p>
+                                    <p id="unst2" style="color: green;">ON</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FLOOR 1 -->
+                        <h3>INFORMATION</h3>
+                        <div class="content-cards">
+                            <div class="card">
+                                <div class="card-top">
+                                    <div class="card-icon small">
+                                        <img src="https://cdn.prod.website-files.com/672f6132d6a57ed106a6bb6b/672f6133d6a57ed106a6bc00_heart.svg" loading="lazy" alt="" class="icon-img"/>
+                                    </div>
+                                    
+                                </div>
+                                <div class="card-bot">
+                                    <div class="timer-wrap">
+                                        <img src="https://cdn.prod.website-files.com/672f6132d6a57ed106a6bb6b/672f6133d6a57ed106a6bbfe_temperature.svg" loading="lazy" alt="" class="icon-wrap"/>
+                                        <p class="p-12 white">Soil Moisture</p>
+                                    </div>
+                                    <p class="blue">
+                                        <span id="temp" class="p-35">0</span>%
+                                    </p>
+                                    <p class="grey">SENSOR</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-top">
+                                    <div class="card-icon small">
+                                        <img src="https://cdn.prod.website-files.com/672f6132d6a57ed106a6bb6b/672f6133d6a57ed106a6bc00_heart.svg" loading="lazy" alt="" class="icon-img"/>
+                                    </div>
+                                    
+                                </div>
+                                <div class="card-bot">
+                                    <div class="timer-wrap">
+                                        <img src="https://cdn.prod.website-files.com/672f6132d6a57ed106a6bb6b/672f6133d6a57ed106a6bbfe_temperature.svg" loading="lazy" alt="" class="icon-wrap"/>
+                                        <p class="p-12 white">Rainfall</p>
+                                    </div>
+                                    <p class="blue">
+                                        <span id="temp" class="p-35">0</span>mm
+                                    </p>
+                                    <p class="grey">SENSOR</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-top">
+                                    <div class="card-icon small">
+                                        <img src="https://cdn.prod.website-files.com/672f6132d6a57ed106a6bb6b/672f6133d6a57ed106a6bc00_heart.svg" loading="lazy" alt="" class="icon-img"/>
+                                    </div>
+                                    
+                                </div>
+                                <div class="card-bot">
+                                    <div class="timer-wrap">
+                                        <img src="https://cdn.prod.website-files.com/672f6132d6a57ed106a6bb6b/672f6133d6a57ed106a6bbfe_temperature.svg" loading="lazy" alt="" class="icon-wrap"/>
+                                        <p class="p-12 white">Temperature</p>
+                                    </div>
+                                    <p class="blue">
+                                        <span id="temp" class="p-35">0</span>°C
+                                    </p>
+                                    <p class="grey">SENSOR</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-top">
+                                    <div class="card-icon small">
+                                        <img src="https://cdn.prod.website-files.com/672f6132d6a57ed106a6bb6b/672f6133d6a57ed106a6bc00_heart.svg" loading="lazy" alt="" class="icon-img"/>
+                                    </div>
+                                    
+                                </div>
+                                <div class="card-bot">
+                                    <div class="timer-wrap">
+                                        <img src="https://cdn.prod.website-files.com/672f6132d6a57ed106a6bb6b/672f6133d6a57ed106a6bbfe_temperature.svg" loading="lazy" alt="" class="icon-wrap"/>
+                                        <p class="p-12 white">Humidity</p>
+                                    </div>
+                                    <p class="blue">
+                                        <span id="humd" class="p-35">0</span>%
+                                    </p>
+                                    <p class="grey">SENSOR</p>
+                                </div>
+                            </div>
+                            
+                        <!-- END -->
                     </div>
-
-                    <div style="background-color: #444; border: 1px solid #ddd; padding: 15px; margin-bottom: 20px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
-                        <h3 style="margin-top: 0; color: white; text-align: center;">2. Cảm Biến Nhiệt Độ Thông Minh</h3>
-                        <p style="text-align: justify; line-height: 1.8; color: white;">Các cảm biến nhiệt độ được lắp đặt trong các phòng giúp theo dõi mức nhiệt và giúp hệ thống điều khiển tự động điều chỉnh nhiệt độ theo yêu cầu. Ví dụ, nếu nhiệt độ trong phòng quá thấp, hệ thống có thể tự động bật máy sưởi hoặc điều hòa để duy trì nhiệt độ lý tưởng.</p>
-                    </div>
-
-                    <div style="background-color: #444; border: 1px solid #ddd; padding: 15px; margin-bottom: 20px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
-                        <h3 style="margin-top: 0; color: white; text-align: center;">3. Tự Động Hóa</h3>
-                        <p style="text-align: justify; line-height: 1.8; color: white;">Các thiết bị có thể được lập trình để hoạt động theo các kịch bản cụ thể. Ví dụ, khi bạn ra khỏi nhà, hệ thống có thể tự động tắt tất cả các thiết bị điện và điều chỉnh nhiệt độ để tiết kiệm năng lượng.</p>
-                    </div>
-
-                    <div style="background-color: #444; border: 1px solid #ddd; padding: 15px; margin-bottom: 20px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
-                        <h3 style="margin-top: 0; color: white; text-align: center;">4. Hệ Thống An Ninh Thông Minh</h3>
-                        <p style="text-align: justify; line-height: 1.8; color: white;">Các thiết bị như camera giám sát, cảm biến chuyển động, cảm biến cửa, và khóa thông minh giúp nâng cao an ninh cho ngôi nhà. Những thiết bị này có thể gửi thông báo đến điện thoại của bạn khi phát hiện có chuyển động bất thường hoặc khi cửa bị mở.</p>
-                    </div>
-
-                    <div style="background-color: #444; border: 1px solid #ddd; padding: 15px; margin-bottom: 20px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
-                        <h3 style="margin-top: 0; color: white; text-align: center;">5. Tiết Kiệm Năng Lượng</h3>
-                        <p style="text-align: justify; line-height: 1.8; color: white;">Các thiết bị thông minh có thể giúp bạn theo dõi và kiểm soát mức tiêu thụ năng lượng trong gia đình. Một số hệ thống có thể tự động tắt các thiết bị không cần thiết khi không sử dụng hoặc điều chỉnh các thiết bị để sử dụng năng lượng hiệu quả hơn.</p>
-                    </div>
-
-                    <br><h2 style="color: white; text-align: center;">Lợi Ích Của Ngôi Nhà Thông Minh</h2><br>
-                    <ul style="line-height: 1.8; color: white; text-align: justify;">
-                        <li><strong>Tiện Lợi:</strong> Việc điều khiển các thiết bị trong nhà trở nên dễ dàng hơn thông qua các ứng dụng hoặc giọng nói.</li>
-                        <li><strong>An Toàn:</strong> Các tính năng an ninh giúp bảo vệ ngôi nhà khỏi các nguy cơ như trộm cắp, hỏa hoạn hay rò rỉ gas.</li>
-                        <li><strong>Tiết Kiệm Năng Lượng:</strong> Tự động hóa giúp tối ưu hóa việc sử dụng năng lượng, từ đó giảm chi phí điện năng.</li>
-                        <li><strong>Cải Thiện Chất Lượng Cuộc Sống:</strong> Các thiết bị có thể được lập trình để phù hợp với thói quen và nhu cầu của gia đình, mang lại sự thoải mái tối đa.</li>
-                    </ul>
-                </div>   
+            </div>
             <div data-w-id="a926b8ae-75ce-e48b-c3ad-6b31d39d4ce8" class="shadow"></div>
             <div class="custom-css w-embed">
                 <style>
@@ -350,6 +463,8 @@
                 </div>
             </div>
         </div>
-        
+        <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+        <script src="script.js"></script>
     </body>
 </html>
