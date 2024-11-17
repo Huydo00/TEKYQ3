@@ -227,6 +227,23 @@ database.ref("/TEKYQ3/smh/O/Y6").on("value", function(snapshot){
     }
 })
 
+// //Y7
+// var Y7 = 7;
+// database.ref("/TEKYQ3/smh/O/Y7").on("value", function(snapshot){
+//     var alam = snapshot.val();
+//     if(alam==1){
+//         document.getElementById("unalam" + Y7).style.display = "block";
+// 		document.getElementById("actalam" + Y7).style.display = "none";
+//         document.getElementById("unalam"+ Y7).style.display = "block";
+// 		document.getElementById("actalam"+ Y7).style.display = "none";
+//     }
+//     else{
+//         document.getElementById("unalam"+ Y7).style.display = "none";
+// 		document.getElementById("actalam"+ Y7).style.display = "block";
+//         document.getElementById("unalam"+ Y7).style.display = "none";
+// 		document.getElementById("actalam"+ Y7).style.display = "block";
+//     }
+// })
 
 //X1
 database.ref("/TEKYQ3/smh/I/X1").on("value", function(snapshot){

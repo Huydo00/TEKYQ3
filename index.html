@@ -187,7 +187,7 @@
                                 </div>
                                 <p>Home</p>
                             </a>
-                            <a href="./farm.html" aria-current="page" class="nav-link w-inline-block w--current">
+                            <a href="#" aria-current="page" class="nav-link w-inline-block w--current">
                                 <div class="nav-icon">
                                     <img src="./assets/image/4.png" loading="lazy" alt="" class="icon-img"/>
                                 </div>
@@ -266,19 +266,41 @@
                                     <div class="card-icon small">
                                         <img src="https://cdn.prod.website-files.com/672f6132d6a57ed106a6bb6b/672f6133d6a57ed106a6bc00_heart.svg" loading="lazy" alt="" class="icon-img"/>
                                     </div>
+                                    
                                 </div>
                                 <div class="card-bot">
                                     <div class="timer-wrap">
-                                        <img src="https://cdn.prod.website-files.com/672f6132d6a57ed106a6bb6b/672f6133d6a57ed106a6bbff_speed.svg" loading="lazy" alt="" class="icon-wrap"/>
-                                        <p class="p-12 white">Speed WIFI</p>
+                                        <img src="https://cdn.prod.website-files.com/672f6132d6a57ed106a6bb6b/672f6133d6a57ed106a6bbfe_temperature.svg" loading="lazy" alt="" class="icon-wrap"/>
+                                        <p class="p-12 white">GAS</p>
                                     </div>
-                                    <p class="purple">
-                                        <span class="p-35">321</span>
-                                        mb/sec
+                                    <p class="gold">
+                                        <span id="gas" class="p-35">20</span>%
                                     </p>
-                                    <p class="grey">Good</p>
+                                    <p class="grey">FLOOR 2</p>
                                 </div>
                             </div>
+                            <div class="card">
+                                <div class="card-top">
+                                    <div class="card-icon small">
+                                        <img src="https://cdn.prod.website-files.com/672f6132d6a57ed106a6bb6b/672f6133d6a57ed106a6bc00_heart.svg" loading="lazy" alt="" class="icon-img"/>
+                                    </div>
+                                    
+                                </div>
+                                <div class="card-bot">
+                                    <div class="timer-wrap">
+                                        <img src="https://cdn.prod.website-files.com/672f6132d6a57ed106a6bb6b/672f6133d6a57ed106a6bbfe_temperature.svg" loading="lazy" alt="" class="icon-wrap"/>
+                                        <p class="p-12 white">ALARM</p>
+                                    </div>
+                                    <p class="unalam" style="color: greenyellow;">
+                                        <span id="gas" class="p-35">NORMAL</span>
+                                    </p>
+                                    <!-- <p class="actalam" style="color: red;">
+                                        <span id="gas" class="p-35">WARNING</span>
+                                    </p> -->
+                                    <p class="grey">FLOOR 2</p>
+                                </div>
+                            </div>
+                            
                             <div class="card">
                                 <div class="card-top">
                                     <div class="card-icon">
@@ -332,6 +354,32 @@
                                     <p id="unst2" style="color: green;">ON</p>
                                 </div>
                             </div>
+                            <div class="card">
+                                <div class="card-top">
+                                    <div class="card-icon">
+                                        <img src="https://cdn.prod.website-files.com/672f6132d6a57ed106a6bb6b/672f6133d6a57ed106a6bbf4_monitor.svg" loading="lazy" alt="" class="icon-img"/>
+                                    </div>
+                                    <a id="unact3" style="cursor: pointer; background-color: green;" class="border-icon w-inline-block">
+                                        <img style="padding: 8px;" src="https://cdn.prod.website-files.com/672f6132d6a57ed106a6bb6b/672f6133d6a57ed106a6bbf5_off.svg" loading="lazy" alt="" class="icon-img"/>
+                                    </a>
+                                    <a id="act3" style="cursor: pointer;" class="border-icon w-inline-block">
+                                        <img style="padding: 8px;" src="https://cdn.prod.website-files.com/672f6132d6a57ed106a6bb6b/672f6133d6a57ed106a6bbf5_off.svg" loading="lazy" alt="" class="icon-img"/>
+                                    </a>
+                                </div>
+                                <div class="card-bot">
+                                    <div class="timer-wrap">
+                                        <img src="https://cdn.prod.website-files.com/672f6132d6a57ed106a6bb6b/672f6133d6a57ed106a6bbf6_clock.svg" loading="lazy" alt="" class="icon-wrap"/>
+                                        <p class="p-12 white">FLOOR 1</p>
+                                    </div>
+                                    <p class="green">
+                                        <span class="p-35">FAN</span>
+                                        <span class="p-35"></span>
+                                        
+                                    </p>
+                                    <p id="ast3" style="color: gray;">OFF</p>
+                                    <p id="unst3" style="color: green;">ON</p>
+                                </div>
+                            </div>
                         </div>
                         <!-- FLOOR 1 -->
                         <h3>FLOOR 1</h3>
@@ -372,32 +420,7 @@
                                     <p class="grey">FLOOR 1</p>
                                 </div>
                             </div>
-                            <div class="card">
-                                <div class="card-top">
-                                    <div class="card-icon">
-                                        <img src="https://cdn.prod.website-files.com/672f6132d6a57ed106a6bb6b/672f6133d6a57ed106a6bbf4_monitor.svg" loading="lazy" alt="" class="icon-img"/>
-                                    </div>
-                                    <a id="unact3" style="cursor: pointer; background-color: green;" class="border-icon w-inline-block">
-                                        <img style="padding: 8px;" src="https://cdn.prod.website-files.com/672f6132d6a57ed106a6bb6b/672f6133d6a57ed106a6bbf5_off.svg" loading="lazy" alt="" class="icon-img"/>
-                                    </a>
-                                    <a id="act3" style="cursor: pointer;" class="border-icon w-inline-block">
-                                        <img style="padding: 8px;" src="https://cdn.prod.website-files.com/672f6132d6a57ed106a6bb6b/672f6133d6a57ed106a6bbf5_off.svg" loading="lazy" alt="" class="icon-img"/>
-                                    </a>
-                                </div>
-                                <div class="card-bot">
-                                    <div class="timer-wrap">
-                                        <img src="https://cdn.prod.website-files.com/672f6132d6a57ed106a6bb6b/672f6133d6a57ed106a6bbf6_clock.svg" loading="lazy" alt="" class="icon-wrap"/>
-                                        <p class="p-12 white">FLOOR 1</p>
-                                    </div>
-                                    <p class="green">
-                                        <span class="p-35">FAN</span>
-                                        <span class="p-35"></span>
-                                        
-                                    </p>
-                                    <p id="ast3" style="color: gray;">OFF</p>
-                                    <p id="unst3" style="color: green;">ON</p>
-                                </div>
-                            </div>
+                            
                             <div class="card">
                                 <div class="card-top">
                                     <div class="card-icon">
@@ -422,28 +445,6 @@
                                     </p>
                                     <p id="ast4" style="color: gray;">OFF</p>
                                     <p id="unst4" style="color: green;">ON</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- FLOOR 2 -->
-                        <h3>FLOOR 2</h3>
-                        <div class="content-cards">
-                            <div class="card">
-                                <div class="card-top">
-                                    <div class="card-icon small">
-                                        <img src="https://cdn.prod.website-files.com/672f6132d6a57ed106a6bb6b/672f6133d6a57ed106a6bc00_heart.svg" loading="lazy" alt="" class="icon-img"/>
-                                    </div>
-                                    
-                                </div>
-                                <div class="card-bot">
-                                    <div class="timer-wrap">
-                                        <img src="https://cdn.prod.website-files.com/672f6132d6a57ed106a6bb6b/672f6133d6a57ed106a6bbfe_temperature.svg" loading="lazy" alt="" class="icon-wrap"/>
-                                        <p class="p-12 white">GAS</p>
-                                    </div>
-                                    <p class="blue">
-                                        <span id="gas" class="p-35">20</span>%
-                                    </p>
-                                    <p class="grey">FLOOR 2</p>
                                 </div>
                             </div>
                             <div class="card">
@@ -472,6 +473,28 @@
                                     <p id="unst5" style="color: green;">ON</p>
                                 </div>
                             </div>
+                        </div>
+                        <!-- FLOOR 2 -->
+                        <h3>FLOOR 2</h3>
+                        <div class="content-cards">
+                            <div class="card">
+                                <div class="card-top">
+                                    <div class="card-icon small">
+                                        <img src="https://cdn.prod.website-files.com/672f6132d6a57ed106a6bb6b/672f6133d6a57ed106a6bc00_heart.svg" loading="lazy" alt="" class="icon-img"/>
+                                    </div>
+                                </div>
+                                <div class="card-bot">
+                                    <div class="timer-wrap">
+                                        <img src="https://cdn.prod.website-files.com/672f6132d6a57ed106a6bb6b/672f6133d6a57ed106a6bbff_speed.svg" loading="lazy" alt="" class="icon-wrap"/>
+                                        <p class="p-12 white">Speed WIFI</p>
+                                    </div>
+                                    <p class="purple">
+                                        <span class="p-35">321</span>
+                                        mb/sec
+                                    </p>
+                                    <p class="grey">Good</p>
+                                </div>
+                            </div>
                             <div class="card">
                                 <div class="card-top">
                                     <div class="card-icon">
@@ -498,6 +521,33 @@
                                     <p id="unst6" style="color: green;">ON</p>
                                 </div>
                             </div>
+                            <!-- <div class="card">
+                                <div class="card-top">
+                                    <div class="card-icon">
+                                        <img src="https://cdn.prod.website-files.com/672f6132d6a57ed106a6bb6b/672f6133d6a57ed106a6bbf4_monitor.svg" loading="lazy" alt="" class="icon-img"/>
+                                    </div>
+                                    <a id="unact8" style="cursor: pointer; background-color: green;" class="border-icon w-inline-block">
+                                        <img style="padding: 8px;" src="https://cdn.prod.website-files.com/672f6132d6a57ed106a6bb6b/672f6133d6a57ed106a6bbf5_off.svg" loading="lazy" alt="" class="icon-img"/>
+                                    </a>
+                                    <a id="act8" style="cursor: pointer;" class="border-icon w-inline-block">
+                                        <img style="padding: 8px;" src="https://cdn.prod.website-files.com/672f6132d6a57ed106a6bb6b/672f6133d6a57ed106a6bbf5_off.svg" loading="lazy" alt="" class="icon-img"/>
+                                    </a>
+                                </div>
+                                <div class="card-bot">
+                                    <div class="timer-wrap">
+                                        <img src="https://cdn.prod.website-files.com/672f6132d6a57ed106a6bb6b/672f6133d6a57ed106a6bbf6_clock.svg" loading="lazy" alt="" class="icon-wrap"/>
+                                        <p class="p-12 white">FLOOR 2</p>
+                                    </div>
+                                    <p class="green">
+                                        <span class="p-35">LIGHT</span>
+                                        <span class="p-35"></span>
+                                        
+                                    </p>
+                                    <p id="ast8" style="color: gray;">OFF</p>
+                                    <p id="unst8" style="color: green;">ON</p>
+                                </div>
+                            </div> -->
+                            
                         </div> 
                         <!-- END -->
                     </div>
